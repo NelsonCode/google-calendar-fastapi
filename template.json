@@ -1,0 +1,21 @@
+{
+  "summary": "Evento importante!",
+  "location": "Evento virtual (Slack)",
+  "description": "Esta es la descripcion",
+  "start": {
+    "dateTime": "2021-12-10T10:00:00",
+    "timeZone": "America/El_Salvador"
+  },
+  "end": {
+    "dateTime": "2021-12-10T11:00:00",
+    "timeZone": "America/El_Salvador"
+  },
+  "attendees": [{ "email": "email@gmail.com" }],
+  "reminders": {
+    "useDefault": false,
+    "overrides": [
+      { "method": "email", "minutes": 30 },
+      { "method": "popup", "minutes": 10 }
+    ]
+  }
+}
